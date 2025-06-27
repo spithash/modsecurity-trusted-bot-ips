@@ -33,13 +33,13 @@ I use this for creating a .txt file and then whitelist all the entries in modsec
 2. Make the script executable:
 
    ```bash
-   chmod +x update-trusted-bot-ips.sh
+   chmod +x update-trusted-bot-ips
 ## Usage
 
 Run the script manually:
 
 ```bash
-sudo ./update-trusted-bot-ips.sh
+sudo ./update-trusted-bot-ips
 ```
 
 ## Usage in your whitelist.conf (works also for apache or nginx)
@@ -52,4 +52,4 @@ SecRule REMOTE_ADDR "@pmFromFile /etc/modsecurity/google_bing_googlebot_ips.txt"
 To keep your IP whitelist up to date, add a cron job:
 
 ```cron
-0 2 * * * /usr/local/bin/update-trusted-bot-ips.sh >> /var/log/update-trusted-bot-ips.log 2>&1
+0 2 * * * /usr/local/bin/update-trusted-bot-ips >> /var/log/update-trusted-bot-ips.log 2>&1
