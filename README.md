@@ -1,6 +1,6 @@
 # Modsecurity Trusted Bot IPs JSON Parser and Whitelist Generator
 
-A Bash script that automatically fetches and parses JSON-based IP range data for trusted search engine bots (Googlebot, Bingbot, and others), ideal for use with ModSecurity and other web application firewalls and web servers (nginx, apache).
+A Bash script that fetches and parses JSON-based IP range data for trusted search engine bots (Googlebot, Bingbot, and others), ideal for use with ModSecurity and other web application firewalls and web servers (nginx, apache).
 I use this for creating a .txt file and then whitelist all the entries in modsecurity's whitelist.conf
 
 ---
