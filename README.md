@@ -17,7 +17,7 @@ I use this for creating a .txt file and then whitelist all the entries in modsec
 
 ## Requirements
 
-- Bash (tested on Linux)
+- `bash` (tested on Linux)
 - `curl` — for downloading JSON data
 - `jq` — for parsing JSON (install via your package manager, e.g. `sudo apt install jq`)
 
