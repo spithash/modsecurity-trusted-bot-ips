@@ -20,7 +20,7 @@ OUTPUT_FILE="/etc/modsecurity/google_bing_googlebot_ips.txt"
 mkdir -p "$(dirname "$OUTPUT_FILE")"
 
 # Empty the output file to start fresh
->"$OUTPUT_FILE"
+: >"$OUTPUT_FILE"
 
 # Initialize total counters
 TOTAL_IPV4=0
