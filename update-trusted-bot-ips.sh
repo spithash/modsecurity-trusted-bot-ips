@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Script: update-trusted-bot-ips.sh
 # What it does: grabs trusted bot IP ranges from Google and Bing JSON files
