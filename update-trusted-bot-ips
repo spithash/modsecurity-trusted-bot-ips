@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Script: update-trusted-bot-ips.sh
+# Script: update-trusted-bot-ips
 # What it does: grabs trusted bot IP ranges from Google and Bing JSON files
 # and saves them to a flat file you can use in ModSecurity or your firewall.
 # Repo: https://github.com/spithash/modsecurity-trusted-bot-ips
