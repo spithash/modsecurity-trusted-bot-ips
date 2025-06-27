@@ -43,6 +43,7 @@ sudo ./update-trusted-bot-ips
 ```
 
 ## Usage in your whitelist.conf (works also for apache or nginx)
+Make sure you change the id '1007' to a unique id in case you have the same somewhere in your rules.
 ```bash
 SecRule REMOTE_ADDR "@pmFromFile /etc/modsecurity/google_bing_googlebot_ips.txt" "phase:1,nolog,allow,ctl:ruleEngine=Off,id:1007"
 ```
